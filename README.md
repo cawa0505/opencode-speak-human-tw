@@ -2,12 +2,23 @@
 
 > 讀起來很專業，但誰都寫得出來？那就是 AI 味。
 
-繁體中文的去 AI 味改寫 skill，給 Claude Code、Codex、Cursor 和任何能讀 Markdown 的 AI agent 用。內容創作、行銷文案、日常辦公都能用：電子報、社群貼文、銷售頁、客服回信、簡報、公告、Email。
-
-它做三件事：**先保住事實**（價格、名字、連結、承諾一字不漂），**再清掉 31 種 AI 寫作痕跡**，**順手抓出中國用語與半形標點**，讓文字讀起來像台灣人寫的。
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Benchmark](https://img.shields.io/badge/benchmark-36_cases-blue.svg)](evals/benchmark.md)
+[![zh-TW](https://img.shields.io/badge/zh--TW-Taiwan-e4002b.svg)](references/taiwan-localization.md)
+
+🤖 &nbsp;AI 幫你把稿子寫好了，你自己讀一遍卻覺得哪裡怪，但又說不出來哪裡怪？
+
+📮 &nbsp;電子報資訊全對，讀起來卻像新聞稿，不像你在跟讀者講話？
+
+😮‍💨 &nbsp;每次都要自己一句一句抓「這句好 AI」再重寫，改到最後比自己從頭寫還累？
+
+### ✨ 這些，說人話都能解決。
+
+一個專門校對繁體中文的 skill：抓出 31 種 AI 寫作痕跡，順手把中國用語和半形標點改成台灣的寫法，改寫成讀起來像人寫的版本，還附一份交稿前能自己打分數的檢核表。
+
+給 Claude Code、Codex、Cursor 和任何能讀 Markdown 的 AI agent 用。內容創作、行銷文案、日常辦公都能：電子報、社群貼文、銷售頁、客服回信、簡報、公告、Email。
+
+一句話原則：**先保住事實**（價格、名字、連結、承諾一字不漂），**再清掉 AI 味**，**最後才加人味**。不是把你的稿子洗成機器人，是把 AI 味洗掉、把你洗回來。
 
 ## 改成什麼樣
 
