@@ -70,7 +70,7 @@
 
 **改寫後**
 
-> 這支影片品質很高，資訊量很大，創作者把抽象概念講得很生活化。
+> 這支影片品質很高，知識量很大，創作者把抽象概念講得很生活化。
 
 更多場景（銷售頁、客服回信、公告）的完整 before/after 見 [references/examples.md](references/examples.md)。
 
