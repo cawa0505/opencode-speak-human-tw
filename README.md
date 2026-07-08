@@ -10,6 +10,10 @@
 
 <br>
 
+<img src="assets/readme/speak-human-tw-light-visuals-banner-v1.png" alt="說人話 speak-human-tw：繁體中文的去 AI 味改寫 skill" width="820">
+
+<br>
+
 <table>
 <tr><td align="left">
 
