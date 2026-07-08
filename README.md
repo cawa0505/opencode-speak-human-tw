@@ -2,7 +2,7 @@
 
 # 說人話 speak-human-tw
 
-### *讀起來很專業，但誰都寫得出來？那就是 AI 味。*
+### *字都對，卻不像人講的話？那就是 AI 味。*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Benchmark](https://img.shields.io/badge/benchmark-36_cases-blue.svg)](evals/benchmark.md)
