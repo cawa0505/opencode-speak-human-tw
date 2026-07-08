@@ -54,7 +54,7 @@ clone 到 ~/.claude/skills/speak-human-tw
 
 ## lite / full 兩種安裝範圍
 
-- **full（預設，建議）**：整個 repo 都在 skills 目錄裡，Claude 會按需要補讀 `references/` 的完整規則（31 種痕跡、台灣用語表、誤殺防護）
+- **full（預設，建議）**：整個 repo 都在 skills 目錄裡，Claude 會按需要補讀 `references/` 的完整規則（36 種痕跡、台灣用語表、誤殺防護）
 - **lite**：只複製 `SKILL.md` 一個檔案也能運作，靠檔內的「單檔兜底規則」做基礎清理，但沒有完整的模式庫和誤殺防護
 
 ## 常駐專案的觸發加強（選用）

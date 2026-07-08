@@ -1,6 +1,6 @@
 ---
 name: speak-human-tw
-version: 1.0.0
+version: 1.1.0
 description: |
   「說人話」：繁體中文的去 AI 味改寫 skill。審查與改寫文字，去除 AI 生成痕跡，並把中國用語與半形標點校正成台灣的寫法，讓文字讀起來像台灣人寫的。
   觸發時機：用戶說「去 AI 味」「說人話」「這段好 AI」「改自然一點」「幫我潤稿去掉 AI 感」「校對一下再發」，或要求檢查電子報、社群貼文、銷售頁、課程文案、客服回信、簡報、公告、Email 等對外文字的語感。
@@ -12,6 +12,7 @@ last-updated: 2026-07-08
 author: Raymond Hou
 tags: [writing, proofreading, zh-tw, de-ai, humanizer]
 changelog:
+  - "1.1.0 (2026-07-08): AI 痕跡 31→36，新增說教深度腔、金句公式、假坦白鉤子、戲劇短句轟炸、預告式導言（比對 blader/humanizer 補齊）。examples.md 從 5 組擴到 13 組，新增個人品牌貼文、電商產品文案、自我介紹三場景。"
   - "1.0.0 (2026-07-08): 全面重建。六步流程、31 種 AI 痕跡、台灣在地化層、保護清單、五情境力度表、annotation mode、36 條 benchmark。"
 license: MIT
 ---
@@ -60,7 +61,7 @@ license: MIT
 
 ### 4. 逐類改寫
 
-按 [references/patterns.md](references/patterns.md) 的 31 種痕跡逐類處理，優先序：
+按 [references/patterns.md](references/patterns.md) 的 36 種痕跡逐類處理，優先序：
 
 1. **先刪**：對話殘留、免責聲明、通用積極結論、解說導引句，刪掉不用補
 2. **再具體化**：誇大意義、廣宣語氣、模糊歸屬，改成具體事實；寫不出具體事實就刪
@@ -143,7 +144,7 @@ license: MIT
 
 ## 參考導航
 
-- 31 種 AI 痕跡與範例句：[references/patterns.md](references/patterns.md)
+- 36 種 AI 痕跡與範例句：[references/patterns.md](references/patterns.md)
 - 台灣用語與標點：[references/taiwan-localization.md](references/taiwan-localization.md)
 - 五大情境細部策略：[references/scenes.md](references/scenes.md)
 - 保護清單與誤殺防護：[references/protected-list.md](references/protected-list.md)
