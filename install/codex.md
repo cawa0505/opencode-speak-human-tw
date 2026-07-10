@@ -8,10 +8,16 @@ clone 下來，用 `codex exec` 指定讀取規則：
 
 ```bash
 git clone https://github.com/Raymondhou0917/speak-human-tw.git && cd speak-human-tw
-codex exec -C . "讀取 ./SKILL.md 與 ./references/ 下所有檔案，按規則改寫以下文字：
+codex exec -C . "讀取 ./SKILL.md 與 ./references/ 下所有檔案，按規則改寫以下文字，這次直接套用不用先問我：
 
 （貼上你的文字）"
 ```
+
+> **為什麼要加「這次直接套用不用先問我」**
+>
+> 這個 skill 預設會先列一張建議清單、問你「以上 N 處有什麼地方是你覺得需要修改的嗎？」，等你回覆才動筆。但 `codex exec` 是一次性非互動執行，沒有人能回答那個問句，它會列完清單就結束，你拿不到改寫版。
+>
+> SKILL.md 有偵測非互動環境並自動跳過確認的規則，但明確寫在指令裡最保險。想看清單再決定的話，把這句拿掉、改用互動式的 `codex` session。
 
 只想標問題不改稿：
 
