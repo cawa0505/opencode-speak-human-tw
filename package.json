@@ -1,0 +1,30 @@
+{
+  "name": "opencode-speak-human-tw",
+  "version": "1.4.0",
+  "description": "說人話：繁體中文的去 AI 味改寫 skill for OpenCode",
+  "keywords": ["opencode-plugin", "opencode", "zh-tw", "de-ai", "humanizer", "writing"],
+  "license": "MIT",
+  "author": "Raymond Hou (雷蒙三十)",
+  "homepage": "https://github.com/Raymondhou0917/speak-human-tw",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raymondhou0917/opencode-speak-human-tw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Raymondhou0917/opencode-speak-human-tw/issues"
+  },
+  "main": ".opencode/plugins/speak-human-tw.mjs",
+  "exports": {
+    ".": ".opencode/plugins/speak-human-tw.mjs",
+    "./plugin": ".opencode/plugins/speak-human-tw.mjs"
+  },
+  "files": [
+    ".opencode/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
