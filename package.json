@@ -1,8 +1,15 @@
 {
   "name": "@jimmyyen/opencode-speak-human-tw",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "說人話：繁體中文的去 AI 味改寫 skill for OpenCode. Based on Raymond Hou (雷蒙三十) 的 speak-human-tw.",
-  "keywords": ["opencode-plugin", "opencode", "zh-tw", "de-ai", "humanizer", "writing"],
+  "keywords": [
+    "opencode-plugin",
+    "opencode",
+    "zh-tw",
+    "de-ai",
+    "humanizer",
+    "writing"
+  ],
   "license": "MIT",
   "author": "Jimmy Yen",
   "contributors": [
