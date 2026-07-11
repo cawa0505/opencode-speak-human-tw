@@ -17,8 +17,9 @@
 
 ## 用法
 
-- 輸入 `/skills`，選 `speak-human-tw`，再貼上要改的文字
-- 或直接說「這段去 AI 味」「幫我潤稿」，skill 會自動觸發
+- `/speak-human-tw` 直接貼文字
+- `/speak-human-tw @filename.md` 用 `@` 傳檔案
+- 直接說「這段去 AI 味」「幫我潤稿」，skill 會自動觸發
 
 ## 授權
 
