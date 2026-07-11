@@ -24,3 +24,7 @@
 ## 授權
 
 MIT，同原專案。
+
+## 原始專案
+
+[speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) by [Raymond Hou (雷蒙三十)](https://github.com/Raymondhou0917)。安裝教學、案例示範、38 種 AI 痕跡詳解見[原始 README](https://github.com/Raymondhou0917/speak-human-tw/blob/main/README.md)。
