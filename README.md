@@ -22,13 +22,16 @@ opencode install @jimmyyen/opencode-speak-human-tw
 
 ## 使用
 
-安裝後，skill 會自動註冊。在對話中使用：
+安裝後，skill 會自動註冊。在對話中描述你想做的事，skill 就會觸發：
 
-```
-/speak-human-tw
-```
+- 「這段去 AI 味」
+- 「幫我潤稿」
+- 「這段好 AI，改自然一點」
+- 「校對一下再發」
 
-或在提示中描述你想改寫的文本，skill 會自動觸發。
+關鍵詞觸發，不需要特定指令格式。
+
+Plugin 也會自動註冊 `/speak-human-tw` slash command，直接在對話中輸入 `/speak-human-tw` 加上你的文字就能使用。
 
 ## 功能
 
