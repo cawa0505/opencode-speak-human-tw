@@ -1,6 +1,7 @@
 // speak-human-tw — OpenCode plugin.
 //
-// Registers the 說人話 (de-AI rewriting) skill for Traditional Chinese.
+// Registers the 說人話 (de-AI rewriting) skill for Traditional Chinese
+// plus /speak-human-tw and /說人話 slash commands visible in the UI.
 // Install: { "plugin": ["opencode-speak-human-tw"] }
 
 import path from 'path';
@@ -17,5 +18,14 @@ export default async () => ({
       config.skills.paths.push(skillsDir);
     }
 
+    config.command = config.command || {};
+    config.command['speak-human-tw'] = {
+      template: '',
+      description: '說人話：繁體中文去 AI 味改寫',
+    };
+    config.command['說人話'] = {
+      template: '',
+      description: '說人話啟動 — 去 AI 味改寫',
+    };
   },
 });

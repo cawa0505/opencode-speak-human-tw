@@ -5,6 +5,12 @@
   "keywords": ["opencode-plugin", "opencode", "zh-tw", "de-ai", "humanizer", "writing"],
   "license": "MIT",
   "author": "Jimmy Yen",
+  "contributors": [
+    {
+      "name": "Raymond Hou (雷蒙三十)",
+      "url": "https://github.com/Raymondhou0917"
+    }
+  ],
   "homepage": "https://github.com/cawa0505/opencode-speak-human-tw",
   "repository": {
     "type": "git",
