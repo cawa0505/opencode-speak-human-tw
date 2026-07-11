@@ -10,6 +10,8 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const skillsDir = path.resolve(__dirname, '../../skills');
 
+const COMMANDS = ['speak-human-tw', '說人話'];
+
 export default async () => ({
   config: async (config) => {
     config.skills = config.skills || {};
@@ -19,13 +21,19 @@ export default async () => ({
     }
 
     config.command = config.command || {};
-    config.command['speak-human-tw'] = {
-      template: '說人話：請將以下文字去除 AI 味，改寫成自然的中文：\n\n',
-      description: '說人話：繁體中文去 AI 味改寫',
-    };
-    config.command['說人話'] = {
-      template: '說人話：請將以下文字去除 AI 味，改寫成自然的中文：\n\n',
-      description: '說人話啟動 — 去 AI 味改寫',
-    };
+    for (const name of COMMANDS) {
+      config.command[name] = {
+        template: '說人話：請將以下文字去除 AI 味，改寫成自然的中文：\n\n',
+        description: '說人話：繁體中文去 AI 味改寫',
+      };
+    }
+  },
+
+  'command.execute.before': async (command) => {
+    if (COMMANDS.includes(command.command)) {
+      // Don't intercept — let the command pass through to the LLM.
+      // The LLM will see the trigger keyword and invoke the skill.
+      return;
+    }
   },
 });

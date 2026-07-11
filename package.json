@@ -37,6 +37,9 @@
     "README.md",
     "LICENSE"
   ],
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.17.9"
+  },
   "engines": {
     "node": ">=18"
   }
