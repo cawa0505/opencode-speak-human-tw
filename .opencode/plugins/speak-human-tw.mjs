@@ -20,11 +20,11 @@ export default async () => ({
 
     config.command = config.command || {};
     config.command['speak-human-tw'] = {
-      template: '',
+      template: '說人話：請將以下文字去除 AI 味，改寫成自然的中文：\n\n',
       description: '說人話：繁體中文去 AI 味改寫',
     };
     config.command['說人話'] = {
-      template: '',
+      template: '說人話：請將以下文字去除 AI 味，改寫成自然的中文：\n\n',
       description: '說人話啟動 — 去 AI 味改寫',
     };
   },
