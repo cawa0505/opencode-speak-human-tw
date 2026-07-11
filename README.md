@@ -46,6 +46,8 @@
 
 <div align="center">
 
+---
+
 ### 應用說明：真人手寫 vs. AI 代寫辨識
 
 <table width="100%">
