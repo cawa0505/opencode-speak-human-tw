@@ -1,5 +1,5 @@
 {
-  "name": "opencode-speak-human-tw",
+  "name": "@cawa0505/opencode-speak-human-tw",
   "version": "1.4.0",
   "description": "說人話：繁體中文的去 AI 味改寫 skill for OpenCode",
   "keywords": ["opencode-plugin", "opencode", "zh-tw", "de-ai", "humanizer", "writing"],

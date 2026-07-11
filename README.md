@@ -1,4 +1,4 @@
-# opencode-speak-human-tw
+# @cawa0505/opencode-speak-human-tw
 
 **說人話**：繁體中文的去 AI 味改寫 skill，打包成 [OpenCode](https://github.com/opencode-ai/opencode) plugin。
 
@@ -10,14 +10,14 @@
 
 ```json
 {
-  "plugin": ["opencode-speak-human-tw"]
+  "plugin": ["@cawa0505/opencode-speak-human-tw"]
 }
 ```
 
 或手動安裝：
 
 ```bash
-opencode install opencode-speak-human-tw
+opencode install @cawa0505/opencode-speak-human-tw
 ```
 
 ## 使用
