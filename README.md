@@ -17,7 +17,7 @@
 
 ## 用法
 
-- 輸入 `/speak-human-tw` + 要改的文字
+- 輸入 `/skills`，選 `speak-human-tw`，再貼上要改的文字
 - 或直接說「這段去 AI 味」「幫我潤稿」，skill 會自動觸發
 
 ## 授權

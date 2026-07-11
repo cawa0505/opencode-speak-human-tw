@@ -17,13 +17,5 @@ export default async () => ({
       config.skills.paths.push(skillsDir);
     }
 
-    // Register /speak-human-tw slash command
-    config.command = config.command || {};
-    if (!config.command['speak-human-tw']) {
-      config.command['speak-human-tw'] = {
-        description: '去 AI 味改寫：分析文字中的 AI 痕跡，列出建議清單，等確認後才動筆。',
-        template: '請對以下文字執行 speak-human-tw skill：\n\n$ARGUMENTS',
-      };
-    }
   },
 });
