@@ -33,6 +33,7 @@
   },
   "files": [
     ".opencode/",
+    "src/",
     "skills/",
     "README.md",
     "LICENSE"

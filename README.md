@@ -7,12 +7,30 @@
 
 ## 安裝
 
+### 全域安裝（建議）
+
+```bash
+opencode plugin @jimmyyen/opencode-speak-human-tw --global
+```
+
+### 專案安裝
+
 `opencode.json` 的 `plugin` 陣列加一行：
 
 ```json
 {
   "plugin": ["@jimmyyen/opencode-speak-human-tw"]
 }
+```
+
+裝好後重啟 OpenCode，plugin 會自動註冊 `/speak-human-tw` 指令和 skills。
+
+### 更新檢查
+
+安裝後每小時會自動檢查 npm 有無新版，有的話會下載並提示重啟。可透過環境變數關閉：
+
+```bash
+SPEAK_HUMAN_TW_AUTOUPDATE=0 opencode
 ```
 
 ## 用法
