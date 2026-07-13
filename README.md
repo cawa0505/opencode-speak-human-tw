@@ -25,6 +25,17 @@ opencode plugin @jimmyyen/opencode-speak-human-tw --global
 
 裝好後重啟 OpenCode，plugin 會自動註冊 `/speak-human-tw` 指令和 skills。
 
+### 從舊版升級
+
+v1.5.5 或更舊版本沒有自動更新機制，第一次升級需要清掉 cache 再重裝：
+
+```bash
+rm -rf ~/.cache/opencode/packages/@jimmyyen/opencode-speak-human-tw*
+opencode plugin @jimmyyen/opencode-speak-human-tw --global
+```
+
+之後的版本就會自動檢查更新了。
+
 ### 更新檢查
 
 安裝後每小時會自動檢查 npm 有無新版，有的話會下載並提示重啟。可透過環境變數關閉：
