@@ -104,7 +104,7 @@ export function startAutoUpdate(ctx) {
       toast(
         ctx,
         "說人話 Updated",
-        `v${current} → v${latest}. Restart OpenCode to apply.`,
+        `v${current} → v${latest}`,
         "success",
       );
       if (root) await installLatest(root, signal);
