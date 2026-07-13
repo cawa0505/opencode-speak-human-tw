@@ -1,6 +1,6 @@
 {
   "name": "@jimmyyen/opencode-speak-human-tw",
-  "version": "1.5.5",
+  "version": "1.6.0",
   "description": "說人話：繁體中文的去 AI 味改寫 skill for OpenCode. Based on Raymond Hou (雷蒙三十) 的 speak-human-tw.",
   "keywords": [
     "opencode-plugin",
